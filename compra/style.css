@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-image: url(../compra/img/banner.jpg);
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{
+    width: 20%;
+}
+
+.menu{
+    width: 40%;
+}
+
+.menu nav a{
+    color: #ffff;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 18px;
+}
